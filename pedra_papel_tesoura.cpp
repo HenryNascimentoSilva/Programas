@@ -48,51 +48,51 @@ int Resultado(int escolha, int escolhaPC)
         LimparTerminal();
         if (Computador(escolhaPC) == 1)
         {
-            cout << "Empate!\n\n";
+            cout << "Ambos escolheram pedra! Empate!\n\n";
             break;
         }
         else if (Computador(escolhaPC) == 2)
         {
-            cout << "Você perdeu!\n\n";
+            cout << "Oponente escolheu papel! Você perdeu!\n\n";
             break;
         }
         else
         {
-            cout << "Você ganhou!\n\n";
+            cout << "Oponente escolheu tesoura! Você ganhou!\n\n";
             break;
         }
     case 2:
         LimparTerminal();
         if (Computador(escolhaPC) == 1)
         {
-            cout << "Você ganhou!\n\n";
+            cout << "Oponente escolheu pedra! Você ganhou!\n\n";
             break;
         }
         else if (Computador(escolhaPC) == 2)
         {
-            cout << "Empate!\n\n";
+            cout << "Ambos escolheram papel! Empate!\n\n";
             break;
         }
         else
         {
-            cout << "Você perdeu!\n\n";
+            cout << "Oponente escolheu tesoura! Você perdeu!\n\n";
             break;
         }
     case 3:
         LimparTerminal();
         if (Computador(escolhaPC) == 1)
         {
-            cout << "Você perdeu!\n\n";
+            cout << "Oponente escolheu pedra! Você perdeu!\n\n";
             break;
         }
         else if (Computador(escolhaPC) == 2)
         {
-            cout << "Você ganhou!\n\n";
+            cout << "Oponente escolheu papel! Você ganhou!\n\n";
             break;
         }
         else
         {
-            cout << "Empate!\n\n";
+            cout << "Oponente escolheu tesoura! Empate!\n\n";
             break;
         }
     case 4:
